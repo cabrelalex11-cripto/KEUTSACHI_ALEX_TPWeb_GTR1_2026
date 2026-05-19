@@ -1,0 +1,30 @@
+body{ background-color: #f4f4f4;
+    font-family:arial,sans-serif;
+    margin: 20px;}
+    h1{color:oklab(87.884% -0.19479 0.1809 / 0.959);text-align: center;}
+    h2{color: #14d424;}
+    p{font-size: 16px;line-height: 1.5;}
+    a{text-decoration: none;color: rgba(144, 4, 238, 0.918);margin-right: 15px;}
+    a:hover{color:rgba(255, 0, 0, 0.932)}
+    ul{background-color: rgba(34, 190, 60, 0.863);padding:10px ;}
+    li{margin-bottom: 5px;}
+    img{border-radius: 10px;margin-top: 10px;}
+    section{background-color: rgb(233, 229, 14);padding: 15px;margin-bottom: 20px;border-radius: 5px;}
+    .highlight{
+        color: rgb(99, 201, 4);
+        font-weight: bold;
+    }
+    .container{display: flex;
+        flex-direction: row;}
+    main{flex:3;padding:20px;background-color: white;}
+    aside{flex: 1;padding: 20px;background-color: #DDD;}
+    header{background-color: darkblue;color:white;padding:15px;text-align: center;}
+    footer{background-color: #333;color: white;text-align: center;padding: 10px;margin-top:20px ;}
+    nav{display: flex;justify-content: center;background-color: #555;padding: 10ox;}
+    nav a{color: white;margin: 0 15px;text-decoration:none ;}
+    nav a:hover{color: yellow;}
+    #messageResultat{
+        margin-top: 15px;
+        font-weight: bold;
+        color: #0b3d91;
+    }
